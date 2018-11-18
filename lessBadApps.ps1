@@ -22,6 +22,10 @@ Get-AppxPackage *bingsports* | Remove-AppxPackage
 Get-AppxPackage *AutodeskSketchBook* | Remove-AppxPackage
 Get-AppxPackage *ZuneVideo* | Remove-AppxPackage
 Get-AppxPackage *OneConnect* | Remove-AppxPackage
+Get-AppxPackage *MinecraftUWP* | Remove-AppxPackage
+Get-AppxPackage *CandyCrushSaga* | Remove-AppxPackage
+Get-AppxPackage *HiddenCityMysteryofShadows* | Remove-AppxPackage
+
 
 Write-Host "Todos os comandos foram executados. Tecle Enter para fechar."
 Read-Host
