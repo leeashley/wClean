@@ -1,4 +1,4 @@
-# lessBadApps
+# wClean
 Script powershell for optimize removal of programs in windows 10.
 
 First is necessary change the policy secure, open your powershell with privileges adminstrator and paste:
