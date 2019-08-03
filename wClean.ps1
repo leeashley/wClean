@@ -1,4 +1,4 @@
-﻿<# Removendo apps  #>
+﻿<# Removendo apps  v0.1.0 #>
 Get-AppxPackage *XboxGamingOverlay* | Remove-AppxPackage
 Get-AppxPackage *ZuneMusic* | Remove-AppxPackage
 Get-AppxPackage *XboxSpeechToTextOverlay* | Remove-AppxPackage
@@ -25,7 +25,26 @@ Get-AppxPackage *OneConnect* | Remove-AppxPackage
 Get-AppxPackage *MinecraftUWP* | Remove-AppxPackage
 Get-AppxPackage *CandyCrushSaga* | Remove-AppxPackage
 Get-AppxPackage *HiddenCityMysteryofShadows* | Remove-AppxPackage
-
+Get-AppxPackage *YourPhone* | Remove-AppxPackage
+Get-AppxPackage *WindowsSoundRecorder* | Remove-AppxPackage
+Get-AppxPackage *WindowsMaps* | Remove-AppxPackage
+Get-AppxPackage *WebpImageExtension* | Remove-AppxPackage
+Get-AppxPackage *StorePurchaseApp* | Remove-AppxPackage
+Get-AppxPackage *Messaging* | Remove-AppxPackage
+Get-AppxPackage *SkypeApp* | Remove-AppxPackage
+Get-AppxPackage *WindowsStore* | Remove-AppxPackage
+Get-AppxPackage *GetHelp* | Remove-AppxPackage
+Get-AppxPackage *Print3D* | Remove-AppxPackage
+Get-AppxPackage *WindowsCamera* | Remove-AppxPackage
+Get-AppxPackage *MixedReality.Portal* | Remove-AppxPackage
+Get-AppxPackage *Getstarted* | Remove-AppxPackage
+Get-AppxPackage *Wallet* | Remove-AppxPackage
+Get-AppxPackage *Office.OneNote* | Remove-AppxPackage
+Get-AppxPackage *ScreenSketch* | Remove-AppxPackage
+Get-AppxPackage *Microsoft.MSPaint* | Remove-AppxPackage
+Get-AppxPackage *Microsoft.People* | Remove-AppxPackage
+Get-AppxPackage *Microsoft.Microsoft3DViewer* | Remove-AppxPackage
+Get-AppxPackage *SpotifyMusic* | Remove-AppxPackage
 
 Write-Host "Todos os comandos foram executados. Tecle Enter para fechar."
 Read-Host
